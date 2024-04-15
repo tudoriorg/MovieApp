@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MovieApp</string>
+    <string name="home_page_title">Home</string>
+    <string name="date_descending">Release date descending</string>
+    <string name="date_ascending">Release date ascending</string>
+    <string name="rating_descending">Rating descending</string>
+    <string name="rating_ascending">Rating ascending</string>
+    <string name="search_movie">Search movie name...\n</string>
+    <string name="favs_page_title">Favourites</string>
+    <string name="overview">Overview</string>
 </resources>

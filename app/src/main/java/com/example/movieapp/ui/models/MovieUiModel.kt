@@ -2,8 +2,8 @@ package com.example.movieapp.ui.models
 
 data class MovieUiModel(
     val movieId: Int,
-    val posterUrl: String,
+    val posterUrl: String?,
     val releaseYear: String,
     val rating: Float,
-    val isFavourite: Boolean = false,
+    var isFavourite: Boolean = false,
 )
