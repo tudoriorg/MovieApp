@@ -31,5 +31,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/favs_toolbar"
-        tools:listitem="@layout/item_movie_card" />
+        tools:listitem="@layout/item_movie_card"
+        android:paddingBottom="80dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
