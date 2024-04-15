@@ -30,4 +30,4 @@ interface Api {
 
 const val baseUrl = "https://api.themoviedb.org/3/"
 const val baseImageUrl = "https://image.tmdb.org/t/p/w500/"
-const val apiKey = "abfabb9de9dc58bb436d38f97ce882bc"
+const val apiKey = ""

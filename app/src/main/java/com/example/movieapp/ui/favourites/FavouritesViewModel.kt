@@ -5,7 +5,6 @@ import androidx.lifecycle.viewModelScope
 import com.example.movieapp.data.local.FavouritesRepository
 import com.example.movieapp.domain.localToUi
 import com.example.movieapp.domain.toLocalMovieCard
-import com.example.movieapp.domain.toUiModel
 import com.example.movieapp.ui.models.MovieUiModel
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.map

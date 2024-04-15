@@ -7,7 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
-import androidx.core.view.isVisible
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.movieapp.databinding.FragmentSearchBinding
 import com.example.movieapp.ui.adapter.MovieCardAdapter

@@ -15,7 +15,6 @@ import com.example.movieapp.ui.adapter.MovieCardAdapter
 import com.example.movieapp.ui.adapter.SpacingItemDecorator
 import com.example.movieapp.ui.moviedetails.ARG_MOVIE_ID_EXTRA
 import com.example.movieapp.ui.moviedetails.MovieDetailsActivity
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

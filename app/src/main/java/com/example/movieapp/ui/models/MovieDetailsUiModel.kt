@@ -1,7 +1,5 @@
 package com.example.movieapp.ui.models
 
-import com.example.movieapp.data.api.models.GenreDataModel
-
 data class MovieDetailsUiModel(
     val id: Int,
     val backdropPath: String?,

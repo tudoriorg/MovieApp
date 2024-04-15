@@ -3,19 +3,11 @@ package com.example.movieapp.ui.home
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
-import androidx.core.view.MenuHost
-import androidx.core.view.MenuProvider
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Lifecycle
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.movieapp.R
 import com.example.movieapp.databinding.FragmentHomeTabBinding
 import com.example.movieapp.ui.adapter.MovieCardAdapter
 import com.example.movieapp.ui.adapter.SpacingItemDecorator
@@ -23,7 +15,6 @@ import com.example.movieapp.ui.models.MovieListUiState
 import com.example.movieapp.ui.moviedetails.ARG_MOVIE_ID_EXTRA
 import com.example.movieapp.ui.moviedetails.MovieDetailsActivity
 import org.koin.androidx.viewmodel.ext.android.activityViewModel
-import org.koin.androidx.viewmodel.ext.android.viewModel
 
 enum class RecommendationType{
     now_playing,

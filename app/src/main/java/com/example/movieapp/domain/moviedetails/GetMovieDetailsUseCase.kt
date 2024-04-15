@@ -3,10 +3,8 @@ package com.example.movieapp.domain.moviedetails
 import android.util.Log
 import com.example.movieapp.data.api.MovieRepository
 import com.example.movieapp.data.local.FavouritesRepository
-import com.example.movieapp.domain.dataToUi
 import com.example.movieapp.domain.toUiModel
 import com.example.movieapp.ui.models.MovieDetailsUiState
-import com.example.movieapp.ui.models.MovieListUiState
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

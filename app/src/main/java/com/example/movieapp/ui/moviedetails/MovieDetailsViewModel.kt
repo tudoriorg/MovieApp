@@ -7,10 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.example.movieapp.data.local.FavouritesRepository
 import com.example.movieapp.domain.moviedetails.GetMovieDetailsUseCase
 import com.example.movieapp.domain.toLocalMovieCard
-import com.example.movieapp.ui.models.MovieDetailsUiModel
 import com.example.movieapp.ui.models.MovieDetailsUiState
-import com.example.movieapp.ui.models.MovieListUiState
-import com.example.movieapp.ui.models.MovieUiModel
 import kotlinx.coroutines.launch
 
 class MovieDetailsViewModel(
